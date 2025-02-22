@@ -1,9 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
 import threading
-import keyboard
+import keyboard # type: ignore
 import time
-from pynput.mouse import Button, Controller
+from pynput.mouse import Button, Controller # type: ignore
 
 class AutoClickerGUI:
     def __init__(self):
